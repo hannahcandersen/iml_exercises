@@ -38,7 +38,7 @@ def train(to_train, activation_name, X_train_tensor, X_test_tensor, y_train_tens
     model = to_train 
 
     # Define loss function and optimizer
-    criterion = loss # Binary cross-entropy loss
+    criterion = loss 
     optimizer = optim.Adam(model.parameters(), lr=0.01) 
 
     # Train the model
